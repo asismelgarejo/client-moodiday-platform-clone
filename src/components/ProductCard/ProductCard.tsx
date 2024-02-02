@@ -49,7 +49,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
             href="/search/Loved"
             className={clsx(
               getRatingColor(data.rating),
-              " rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
+              "bg-lime-500 rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
             )}
           >
             {getRating(data.rating)}

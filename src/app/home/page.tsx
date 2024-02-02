@@ -2,18 +2,20 @@ import { CardList } from "@/components/CardList";
 import { ProductModel } from "@/models/Product.model";
 import { API_URL } from "@/utilities/constants";
 import Image from "next/image";
+import Rudder from "../Rudder";
 
 const Home = async () => {
   const products = await getProducts();
   return (
     <div className="max-w-[1320px] text-black mx-auto">
+      <Rudder />
       <div className="p-6 space-y-10">
         <div className="flex items-center w-full justify-center flex-col space-y-4">
           <h1 className="text-5xl font-black">Try More Plants</h1>
           <h2 className="text-3xl font-light">
             Share honest reviews about cannabis brands, earn rewards
           </h2>
-          <br/>
+          <br />
           <Image
             alt="hero image"
             loading="eager"
