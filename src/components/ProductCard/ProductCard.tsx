@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./ProductCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { ProductModel } from "@/models/Product.model";
 import { getOpinion, getOpinionColor } from "@/utilities/getOpinion";
 import clsx from "clsx";
-// import { CustomBadge } from "../CustomBadge";
+import { useRouter } from "next/navigation";
+import { CustomDialog } from "../CustomDialog";
+import { ProductReviewCard } from "../ProductReviewCard";
 
-type ProductCardProps = { data: ProductModel };
-const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
+type ProductCardProps = {
+  data: ProductModel;
+  openModal(data: ProductModel): void;
+};
+const ProductCard: React.FC<ProductCardProps> = ({ data, openModal }) => {
   return (
     <article className="w-full grid space-y-4">
       <div className="rounded-2xl overflow-hidden w-full h-72 ">
@@ -23,12 +28,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
               src={data.productImage}
               className="w-full h-full object-cover hover:transform hover:scale-110 transition-transform duration-300 ease-in-out"
             />
-            <Link
-              href={`/video/product-review/${data.id}`}
+            <button
               className={clsx(
                 styles.playbackDurationContainer,
                 "absolute bottom-2 right-2 flex rounded-xl px-3 py-2 space-x-1"
               )}
+              onClick={() => openModal(data)}
             >
               <Image
                 alt="play"
@@ -43,7 +48,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
                 }}
               />
               <span className="text-white">{data.videoDuration}</span>
-            </Link>
+            </button>
           </div>
           <Link
             href="/search/Loved"
@@ -56,9 +61,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
           </Link>
         </div>
       </div>
-      <div className="">
+      <Link href={`/video/product-review/${data.id}`}>
         <h4 className="text-xs font-medium">{data.productName}</h4>
-      </div>
+      </Link>
     </article>
   );
 };
