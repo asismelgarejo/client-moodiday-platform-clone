@@ -7,17 +7,17 @@ import React from "react";
 type VidePlayerProps = {
   data: ProductModel;
 };
-
+// https://stream.mux.com/2KXKPNYvF3EvnT01t7iuAvKdiTsY02GdYEUcEjhyl5wBY.m3u8?redundant_streams=true
 const VidePlayer: React.FC<VidePlayerProps> = ({ data }) => {
   return (
     <MuxPlayer
       streamType="on-demand"
-      playbackId="EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs"
+      playbackId={data.videoSrc}
       poster={data.productImage}
       placeholder="https://image.mux.com/2KXKPNYvF3EvnT01t7iuAvKdiTsY02GdYEUcEjhyl5wBY/thumbnail.jpg?time=0"
       player-software-name="mux-player-react"
       style={{
-        aspectRatio: "0.5625 / 1",
+        aspectRatio: "0.5698 / 1",
         height: "100%",
         maxWidth: "400px",
         width: "100%",

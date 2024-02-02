@@ -14,19 +14,18 @@ const CustomInput: React.FC<CustomInput> = (props) => {
   return (
     <div
       className={clsx(
-        "px-4 flex py-1 font-light text-black border text-normal rounded-2xl",
+        "px-4 flex py-1 font-light text-black border grow text-normal rounded-3xl w-full",
         inputProps?.className ?? ""
       )}
+      style={inputProps?.style ?? {}}
     >
-      <div className="flex items-center">
-        <button type="button" className="">
-          {startIcon}
-        </button>
-        <input {...inputProps} className="min-w-100px mx-2 outline-none" />
-        <button type="button" className="">
-          {endIcon}
-        </button>
-      </div>
+      <button type="button" className="">
+        {startIcon}
+      </button>
+      <input {...inputProps} className="w-full mx-2 outline-none" />
+      <button type="button" className="">
+        {endIcon}
+      </button>
     </div>
   );
 };

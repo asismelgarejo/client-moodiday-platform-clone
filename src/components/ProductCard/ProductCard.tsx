@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./ProductCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { ProductModel } from "@/models/Product.model";
 import { getOpinion, getOpinionColor } from "@/utilities/getOpinion";
 import clsx from "clsx";
-import { useRouter } from "next/navigation";
-import { CustomDialog } from "../CustomDialog";
-import { ProductReviewCard } from "../ProductReviewCard";
 
 type ProductCardProps = {
   data: ProductModel;
@@ -54,7 +51,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ data, openModal }) => {
             href="/search/Loved"
             className={clsx(
               getOpinionColor(data.opinion),
-              "rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
+              " rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
             )}
           >
             {getOpinion(data.opinion)}

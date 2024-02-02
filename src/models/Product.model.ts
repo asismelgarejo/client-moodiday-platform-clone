@@ -8,5 +8,6 @@ export type ProductModel = {
   category: string;
   flavor: string;
   creator: string;
+  videoSrc: string;
   brand: string;
 };

@@ -8,7 +8,8 @@
       "opinion": "loved",
       "videoDuration": "0:21",
       "category": "Vape Cartridge",
-      "creator": " Stephanie C."
+      "creator": " Stephanie C.",
+      "videoSrc": "2KXKPNYvF3EvnT01t7iuAvKdiTsY02GdYEUcEjhyl5wBY.m3u8"
     },
     {
       "id": "stiiizy-40s-stawberry-cough-infused-pre-rolls-brianna-h",
@@ -18,7 +19,8 @@
       "opinion": "loved",
       "videoDuration": "1:31",
       "category": "Pre Rolls",
-      "creator": "Brianna H."
+      "creator": "Brianna H.",
+      "videoSrc": "4dm3LyLIjHp9Ew8FMoiuH2FsC019HMqb88Xp26ojUejM.m3u8"
     },
     {
       "id": "1906-love-drops-kalli-b",
@@ -28,7 +30,8 @@
       "opinion": "enjoyed",
       "videoDuration": "0:45",
       "category": "Edibles",
-      "creator": " Kalli B."
+      "creator": " Kalli B.",
+      "videoSrc": "4IKOpUWSOPLb14EyAtq7gblhgHcVv02pI3FE2iToEMYE.m3u8"
     },
     {
       "id": "kynd-boston-runtz-5-flower-deborah-m",
@@ -38,47 +41,30 @@
       "opinion": "loved",
       "videoDuration": "1:20",
       "category": "Flower",
-      "creator": "Deborah M."
+      "creator": "Deborah M.",
+      "videoSrc": "nKReeSNaHn02m1SDKcfQRrGjyPOXmF5T3CyIcXvUuUm00.m3u8"
     },
     {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
+      "id": "wana-fast-asleep-optimal-gummies-mandee-r",
+      "productName": "Wana Fast Asleep Optimal Gummies",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
+      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fimage.mux.com%2FNFQjTd4Ub0000OCQT1URINnbWSb0202mZgjL2b79QRuLPnI%2Fthumbnail.jpg%3Ftime%3D0&w=256&q=75",
       "opinion": "enjoyed",
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
+      "videoDuration": "1:47",
+      "category": "Edibles, Gummies",
+      "creator": "Mandee R.",
+      "videoSrc": "NFQjTd4Ub0000OCQT1URINnbWSb0202mZgjL2b79QRuLPnI.m3u8"
     },
     {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
+      "id": "joos-live-resin-crescendo-disposable-vape-pen-kirsten-k",
+      "productName": "Joos Live Resin Disposable Vape Pen",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
+      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fimage.mux.com%2F3SI78YACT8h01Jd9hAyGnyLQ8trMpc8H3VGQv5yNakDI%2Fthumbnail.jpg%3Ftime%3D0&w=256&q=75",
       "opinion": "enjoyed",
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
-    },
-    {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
-      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "opinion": "enjoyed",
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
-    },
-    {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
-      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "opinion": "enjoyed",
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
+      "videoDuration": "2:53",
+      "category": "Disposable Vape Pen",
+      "creator": "Kirsten K.",
+      "videoSrc": "3SI78YACT8h01Jd9hAyGnyLQ8trMpc8H3VGQv5yNakDI.m3u8"
     }
   ]
 }

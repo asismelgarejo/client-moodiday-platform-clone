@@ -1,0 +1,41 @@
+.HeaderContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 200px 200px;
+  column-gap: 30px;
+  grid-template-areas: "logo links input btn";
+}
+.Link:hover {
+  border-color: #dee021;
+  background-color: #dee021;
+}
+.ActiveLink {
+  font-weight: 600;
+  border-color: #dee021;
+  background-color: #dee021;
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar {
+    flex-direction: column-reverse;
+    margin-left: 0 !important;
+  }
+  .Navbar > div {
+    margin-left: 0 !important;
+    margin-bottom: 10px;
+  }
+  .HeaderContainer {
+    grid-template-columns: 100px 1fr auto;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    grid-template-areas: "logo input btn" "links links links";
+  }
+}
+@media screen and (max-width: 400px) {
+    .HeaderContainer {
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 25px;
+        grid-template-areas: "logo logo" "input btn" "links links";
+      }
+}
