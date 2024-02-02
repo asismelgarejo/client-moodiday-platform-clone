@@ -3,7 +3,7 @@ import styles from "./ProductCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { ProductModel } from "@/models/Product.model";
-import { getRating, getRatingColor } from "@/utilities/getRating";
+import { getOpinion, getOpinionColor } from "@/utilities/getOpinion";
 import clsx from "clsx";
 // import { CustomBadge } from "../CustomBadge";
 
@@ -48,16 +48,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
           <Link
             href="/search/Loved"
             className={clsx(
-              getRatingColor(data.rating),
-              "bg-lime-500 rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
+              getOpinionColor(data.opinion),
+              "rounded px-2 absolute top-2 right-2 text-sm font-light text-black"
             )}
           >
-            {getRating(data.rating)}
+            {getOpinion(data.opinion)}
           </Link>
         </div>
       </div>
       <div className="">
-        <h4 className="text-xs font-light">{data.productName}</h4>
+        <h4 className="text-xs font-medium">{data.productName}</h4>
       </div>
     </article>
   );

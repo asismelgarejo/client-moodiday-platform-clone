@@ -8,7 +8,7 @@ const Home = async () => {
   const products = await getProducts();
   return (
     <div className="max-w-[1320px] text-black mx-auto">
-      <Rudder />
+      {/* <Rudder /> */}
       <div className="p-6 space-y-10">
         <div className="flex items-center w-full justify-center flex-col space-y-4">
           <h1 className="text-5xl font-black">Try More Plants</h1>

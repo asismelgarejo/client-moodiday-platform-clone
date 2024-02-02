@@ -5,7 +5,7 @@
       "productName": "PLUGplay Exotics Vape Cartridge",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition. Always consume responsibly.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fimage.mux.com%2F2KXKPNYvF3EvnT01t7iuAvKdiTsY02GdYEUcEjhyl5wBY%2Fthumbnail.jpg%3Ftime%3D0&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "loved",
       "videoDuration": "0:21",
       "category": "Vape Cartridge",
       "creator": " Stephanie C."
@@ -15,7 +15,7 @@
       "productName": "Stiiizy 40's Strawberry Cough Infused Pre Rolls",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition. Always consume responsibly.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fimage.mux.com%2F4dm3LyLIjHp9Ew8FMoiuH2FsC019HMqb88Xp26ojUejM%2Fthumbnail.jpg%3Ftime%3D0&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "loved",
       "videoDuration": "1:31",
       "category": "Pre Rolls",
       "creator": "Brianna H."
@@ -25,7 +25,27 @@
       "productName": "1906 Love Drops",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "enjoyed",
+      "videoDuration": "0:45",
+      "category": "Edibles",
+      "creator": " Kalli B."
+    },
+    {
+      "id": "kynd-boston-runtz-5-flower-deborah-m",
+      "productName": "Kynd Boston Runtz #5 Flower",
+      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
+      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2F1bdba33cce6cd02427c89d09987acff3.png&w=256&q=75",
+      "opinion": "loved",
+      "videoDuration": "1:20",
+      "category": "Flower",
+      "creator": "Deborah M."
+    },
+    {
+      "id": "1906-love-drops-kalli-b",
+      "productName": "1906 Love Drops",
+      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
+      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
+      "opinion": "enjoyed",
       "videoDuration": "0:45",
       "category": "Edibles",
       "creator": " Kalli B."
@@ -35,7 +55,7 @@
       "productName": "1906 Love Drops",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "enjoyed",
       "videoDuration": "0:45",
       "category": "Edibles",
       "creator": " Kalli B."
@@ -45,7 +65,7 @@
       "productName": "1906 Love Drops",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "enjoyed",
       "videoDuration": "0:45",
       "category": "Edibles",
       "creator": " Kalli B."
@@ -55,27 +75,7 @@
       "productName": "1906 Love Drops",
       "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
       "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
-    },
-    {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
-      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
-      "videoDuration": "0:45",
-      "category": "Edibles",
-      "creator": " Kalli B."
-    },
-    {
-      "id": "1906-love-drops-kalli-b",
-      "productName": "1906 Love Drops",
-      "productDescription": "This review was sourced from our budtender creator community and is not a substitute for professional medical advice. Seek the advice of a health professional before using cannabis for a medical condition.",
-      "productImage": "https://www.moodiday.com/_next/image?url=https%3A%2F%2Fmoodiday.nyc3.cdn.digitaloceanspaces.com%2Fmoodiday%2Fd6d49f163d7d4a9b2ae92d7d9c17d5c5.png&w=256&q=75",
-      "rating": 2.4,
+      "opinion": "enjoyed",
       "videoDuration": "0:45",
       "category": "Edibles",
       "creator": " Kalli B."

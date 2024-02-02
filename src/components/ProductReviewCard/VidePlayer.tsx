@@ -25,7 +25,7 @@ const VidePlayer: React.FC<VidePlayerProps> = ({ data }) => {
       }}
       player-software-version="1.8.0"
       stream-type="on-demand"
-      autoPlay={false}
+      autoPlay={true}
       metadata={{
         video_id: "video-id-54321",
         video_title: "Test video title",

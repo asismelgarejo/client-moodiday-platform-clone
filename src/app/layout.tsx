@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Header } from "@/components/Header";
 import Script from "next/script";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Poppins({ weight: ["400", "500", "600" ,"900"], subsets: ["latin-ext"] });
 
 export const metadata: Metadata = {
   title:

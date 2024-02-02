@@ -3,7 +3,7 @@ export type ProductModel = {
   productName: string;
   productDescription: string;
   productImage: string;
-  rating: number;
+  opinion: string;
   videoDuration: string;
   category: string;
   flavor: string;

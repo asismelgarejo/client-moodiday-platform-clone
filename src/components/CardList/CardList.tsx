@@ -12,7 +12,7 @@ type CardListProps = {
 const CardList: React.FC<CardListProps> = ({ title, cards }) => {
   return (
     <div className="space-y-2">
-      <h3 className="text-base font-bold text-black">{title}</h3>
+      <h3 className="text-lg font-black text-black">{title}</h3>
       <div className="px-5">
       <Carousel>
         {cards.map((c) => (

@@ -11,6 +11,8 @@ type pageProps = {
 
 const page: React.FC<pageProps> = async ({ params }) => {
   const productData = await getProduct(params["section"]);
+  console.log(">productData", productData);
+  
   return (
     <CustomDialog>
       <ProductReviewCard data={productData} />

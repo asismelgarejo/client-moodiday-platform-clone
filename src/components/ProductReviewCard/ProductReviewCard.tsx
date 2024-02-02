@@ -1,7 +1,7 @@
 import React from "react";
 import { ProductModel } from "@/models/Product.model";
 import styles from "./ProductReviewCard.module.css";
-import { getRating, getRatingColor } from "@/utilities/getRating";
+import { getOpinion, getOpinionColor } from "@/utilities/getOpinion";
 import VidePlayer from "./VidePlayer";
 import Link from "next/link";
 import clsx from "clsx";
@@ -22,11 +22,11 @@ const ProductReviewCard: React.FC<ProductReviewCardProps> = ({ data }) => {
             <Link
               href="/search/Loved"
               className={clsx(
-                getRatingColor(data.rating),
+                getOpinionColor(data.opinion),
                 "hover:font-black flex justify-around items-center w-[100px] rounded-lg px-2 py-1 text-sm font-light text-black h-fit"
               )}
             >
-              {getRating(data.rating)}
+              {getOpinion(data.opinion)}
             </Link>
             <Link href="/" scroll={false} className={clsx(styles.closeBtn, "text-black bg-slate-200   transition-transform duration-300 ease-in-out hover:bg-slate-300")}>
               <svg
